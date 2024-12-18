@@ -215,9 +215,9 @@ p {
     color: #444;
     line-height: 1.8;
     text-align: justify;
-    margin-bottom: 30px; /* Espacement entre les paragraphes */
-    color: #222724; /* Une couleur de texte agréable pour les paragraphes */
-    font-size: 1.1rem; /* Une taille légèrement supérieure pour la lisibilité */
+    margin-bottom: 30px; 
+    color: #222724; 
+    font-size: 1.1rem; 
 }
 .additional-images {
     display: flex;
@@ -230,7 +230,7 @@ p {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 10px; /* les coins arrond */
+    border-radius: 10px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -239,23 +239,22 @@ p {
 }
 .extra-image:hover {
     transform: scale(2); /* tkabber taswira taht curser */
-    box-shadow: 0 4px 10px rgba(0, 0,0 ,0.2 ); /* Ombre plus marquée au survol */
+    box-shadow: 0 4px 10px rgba(0, 0,0 ,0.2 ); 
 }
-/* Style principal de la section de contact */
 .contact-info {
-    margin-top: 10px; /* Espace au-dessus de la section */
+    margin-top: 10px; 
     align-content: center;
-    margin-right: auto; /* Pousse l'élément vers la droite */
-    font-family: 'lora', sans-serif; /* Police moderne et lisible */
-    background-color: #f8f9fa; /* Fond gris clair */
-    padding: 8px; /* Espacement intérieur */
-    border-radius: 5px; /* Coins arrondis pour un design plus doux */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre subtile pour ajouter de la profondeur */
+    margin-right: auto; 
+    font-family: 'lora', sans-serif; 
+    background-color: #f8f9fa; 
+    padding: 8px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .contact-info ul {
-    list-style-type: none; /* Supprimer les puces de la liste */
-    padding: 2; /* Supprimer le padding par défaut */
-    margin: 2; /* Supprimer la marge par défaut */
+    list-style-type: none; 
+    padding: 2; 
+    margin: 2; 
     align-items: center;
 }
 .parent-container {
@@ -265,7 +264,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Centre sur toute la hauteur de la page */
+    height: 100vh;
 }
 .certificates h2 {
     margin-bottom: 10px;
@@ -277,26 +276,25 @@ p {
     margin-bottom: 20px;
 }
 .c1, .c2, .c3 {
-    display: flex; /* Met les éléments en ligne horizontale */
-    justify-content: center; /* Centre les éléments horizontalement */
-    gap: 100px; /* Espacement entre les images */
-    margin-bottom: 50px; /* Espacement entre les lignes */
+    display: flex;
+    justify-content: center;
+    gap: 100px; 
+    margin-bottom: 50px; 
 }
 .c1 img, .c2 img, .c3 img {
-    border: 2px solid #ddd; /* Bordure légère pour les images */
-    border-radius: 8px; /* Coins arrondis */
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
     transition: transform 0.3s, box-shadow 0.3s;
 }
 .c1 img:hover, .c2 img:hover, .c3 img:hover {
-    transform: scale(1.9); /* Zoom léger au survol */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre au survol */
+    transform: scale(1.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
-/* Conteneur principal */
 section {
     display: flex;
-    flex-wrap: wrap; /* Permet le retour à la ligne si nécessaire */
+    flex-wrap: wrap; 
     gap: 20px;
-    justify-content: center; /* Centre les éléments horizontalement */
+    justify-content: center; 
     margin: 50px auto;
     padding: 20px;
     background-color: #f9f9f9;
@@ -307,7 +305,7 @@ section {
 }
 h1 {
     margin-right: 0%;
-    width: 100%; /* S'étend sur toute la largeur */
+    width: 100%; 
     text-align: center;
     font-size: 2.5rem;
     color: #917391;
@@ -316,29 +314,26 @@ h1 {
     justify-items: center;
     display: inline-block;
 }
-/* Catégories */
 .category {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
-    width: 300px; /* Largeur fixe pour uniformiser les blocs */
+    width: 300px; 
     box-shadow: 1px 2px 4px rgba(174, 174, 174, 0.201);
 }
 .category:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-/* Titres des catégories */
 .category h2 {
     font-size: 1.5rem;
     color:  #0070ac;
     margin-bottom: 15px;
 }
-/* Listes */
 .category ul {
-    list-style: none; /* Supprime les puces */
+    list-style: none; 
     padding: 0;
     margin: 10;
 }
@@ -346,11 +341,10 @@ h1 {
     font-size: 1.3rem;
     color: #666;
     margin-bottom: 6px;
-    text-align: left; /* Texte aligné à gauche pour une meilleure lisibilité */
+    text-align: left;
     padding-left: 15px;
     position: relative;
 }
-/* Ajouter un symbole avant chaque élément de liste */
 .category ul li::before {
     content: "✔";
     color:  #0070ac;
@@ -362,12 +356,12 @@ h1 {
 .certificates {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 10px; /* Coins arrondis */
-    padding: 40px; /* Espacement interne */
+    border-radius: 10px; 
+    padding: 40px; 
     box-shadow: 1px 2px 4px rgba(174, 174, 174, 0.201);
-    margin:  auto; /* Centrer et espacer la section */
-    max-width: 1000px; /* Largeur maximale de la section */
-    text-align: center; /* Centrer le contenu */
+    margin:  auto; 
+    max-width: 1000px; 
+    text-align: center; 
 }
 .testimonials {
     display: flex;
@@ -435,12 +429,12 @@ h1 {
 .section-image {
     background-color: #fff;
     border: 0.5px solid #ddd;
-    border-radius: 2px; /* Coins arrondis */
-    padding: 20px; /* Espacement interne */
+    border-radius: 2px; 
+    padding: 20px; 
     box-shadow: 1px 2px 4px rgba(174, 174, 174, 0.201);
-    margin:  auto; /* Centrer et espacer la section */
-    max-width: 400px; /* Largeur maximale de la section */
-    text-align: center; /* Centrer le contenu */
+    margin:  auto; 
+    max-width: 400px; 
+    text-align: center; 
 } 
 
 .matieres {
@@ -490,36 +484,21 @@ h1 {
     font-weight: bold;
     color: #333333;
 }
-
-/* Catégories */
 .categorie {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 15px;
     text-align: center;
-    width: 300px; /* Largeur fixe pour uniformiser les blocs */
+    width: 300px;
     box-shadow: 1px 2px 4px rgba(174, 174, 174, 0.201);
 }
 .categorie:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-/* Titres des catégories */
 .categorie h2 {
     font-size: 1.5rem;
     color:  #0070ac;
     margin-bottom: 15px;
-}
-.additional-images {
-    text-align: center; /* Centre le texte et les images horizontalement */
-}
-
-.additional-images h1 {
-    margin-bottom: 20px; /* Ajoute un peu d'espace entre le titre et les images */
-}
-
-.additional-images .extra-image {
-    display: inline-block ; /* Aligne les images horizontalement */
-    margin: 5px; /* Ajoute un espace entre les images */
 }
